@@ -1,0 +1,3 @@
+#  Crud system.
+This is a crud system by javaScript...
+![preview img](img/screencapture-file-C-Users-zizo-Desktop-Crud-System-index-html-2022-10-22-08_31_09.png)# Cruds
