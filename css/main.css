@@ -1,0 +1,42 @@
+:root{
+    --main-color:#e8e8f1;
+}
+body{
+    overflow-x:hidden ;
+    color:rgb(232, 232, 241);
+}
+.crud{
+    background-image: url('../img/pexels-photo-534216.jpeg');
+}
+.layer{
+    background-color: rgba(0, 0, 0, .9331111);
+}
+*,btn-info{
+    font-style: italic;
+    color:var(--main-color) !important;
+}
+label{
+    padding: 10px 0 5px ;
+}
+label,thead{
+    font-size: 1.2rem; 
+}
+input{
+    padding: 10px !important;
+}
+.form-control{
+    background-color: transparent;
+    color: var(--main-color) !important;
+    border: 1px solid #ceced152;
+}
+.form-control:hover,.form-control:focus{
+    background-color: #ceced11f;
+    border: 1px solid #ceced152;
+}
+#search,.form-control{
+   font-size: 1.1rem;
+}
+.lighting i{
+    right: 2rem;
+    top: 1rem;
+}

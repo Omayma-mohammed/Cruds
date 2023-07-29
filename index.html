@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud-System</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="crud">
+           <div class="layer">
+            <div class="row">
+                <div class="col-ms-12">
+                    <div class="w-75 m-auto p-5">
+                        <label for="productName">productName</label>
+                        <input type="text" name="productName" id="productName" class="form-control">
+                        <label for="productPrice">productPrice </label>
+                        <input type="text" name="productPrice" id="productPrice" class="form-control">
+                        <label for="productcategory">productcategory</label>
+                        <input type="text" name="productcategory" id="productCategory" class="form-control">
+                        <label for="productDescription">DescriptionProduct..</label>
+                        <textarea name="productDescription" id="productDescription" class="form-control p-5 ps-0"></textarea>
+                        <button class="btn btn-info mt-4 float-end" id="btnAdd">Add Product</button>
+                        <div class="clearfix"></div>
+                        <input type="search" name="search" id="search" placeholder="Search by Name....." 
+                        class="form-control w-75 m-auto my-4" onkeyup="search(this.value)">
+                        <table class="table table-striped mt-4 table-responsive-sm">
+                            <thead>
+                                <tr>
+                                    <td>#</td>
+                                    <td>productName</td>
+                                    <td>productPrice</td>
+                                    <td>productDesc</td>
+                                    <td>productcategory</td>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                                
+                            </tbody>
+                        </table> 
+        
+                    </div>
+                </div>
+            </div>
+           </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
